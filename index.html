@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>EdgeLawPartners</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="images/Edge-Logo-small.png">
+</head>
+<body onload="bodyOnload()">
+    <div id="social">
+        <div class="s-media">
+            <a href="https://www.facebook.com/edgelawpartners/" class="s-item facebook">
+                <abbr title="Facebook"><i class="fab fa-facebook-f"></i></abbr>
+            </a>
+            <a href="https://www.linkedin.com/company/edge-law-partners/?originalSubdomain=in" class="s-item ld">
+                <abbr title="Linked In"><i class="fab fa-linkedin-in"></i></abbr>
+            </a>
+            <a href="https://www.google.com/maps/place/Hub+and+Oak/@28.5690899,77.2281329,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce25069e307a7:0x997a932cee30236d!8m2!3d28.5690852!4d77.2303216" class="s-item maps">
+                <abbr title="Google Maps"><i class="fas fa-directions"></i></abbr>
+            </a>
+            <a id="sm-close"  class="s-item print">
+                <abbr title="Collapse Icons"><i class="fas fa-arrow-left"></i></abbr>
+            </a>
+        </div>
+            <a id="sm-open"  class="s-item print sm-collapse">
+                <abbr title="Open Icons"><i class="fas fa-arrow-right"></i></abbr>
+            </a>
+    </div>
+    <!-- Nav Bar -->
+    <div id="drop">
+        <header class="bar">
+            <div class="navtext-container">
+                <div class="navlogo">
+                  <a href="index.html" onclick="uncheck()"><img src="images/Edge-Logo.png" alt="Edge-Law"></a>
+                </div>
+            </div>
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+            <ul class="menu">
+                    <li><a href="index.html" onclick="uncheck()">Home</a></li>
+                    <li class="top"><a href="our_story.html" onclick="uncheck()">Our Story</a></li>
+                    <li><a href="index.html#third" onclick="uncheck()">Our Team</a></li>
+                    <li><a href="practices.html" onclick="uncheck()">Practices</a></li>
+                    <li><a href="index.html#fourth" onclick="uncheck()">Contact Us</a></li>
+                    <li><a href="https://drive.google.com/file/d/1PAb_2dlPOoEVnAfGY7XZpQCGIIy7CUk8/view?usp=sharing" target="_blank" onclick="uncheck()">Download Brochure</a></li>
+                </ul>
+        </header>
+    </div>
+    <!-- video background -->
+    <div id="top" class="header container">
+        <div class="fullvideo">
+            <video muted autoplay loop>
+                <source src="videos/gg.mp4">
+            </video>
+        </div>
+        <div class="logo">
+            <img src="images/Edge-Logo.png" alt="logo">
+        </div>
+        <div class="heading">
+            <p><sup><i class="fas fa-quote-left"></i></sup>come to the edge and fly!<sup><i class="fas fa-quote-right"></i></sup></p>
+        </div>
+        <!-- index map -->
+        <div class="map">
+            <a href="#first">THE FIRM</a>
+            &nbsp;
+            <samp>|</samp>
+            &nbsp;
+            <a href="#third">OUR DEDICATED TEAM</a>
+            &nbsp;
+            <samp>|</samp>
+            &nbsp;
+            <a href="#second">AREAS OF EXPERTISE</a>
+        </div> 
+        <!-- animated down angle -->
+        <div class="angle">
+            <i class="fas fa-angle-down"></i>
+        </div>
+    </div>
+    <div id="first" class="bottom">
+        <div class="content">
+            <div class="animation">
+                <div class="vl" data-aos="fade-down" data-aos-duration="300"></div>
+            </div>
+            <div class="firm" data-aos="fade-down" data-aos-duration="300" data-aos-delay="400">the firm</div>
+            <div class="text">
+                <div class="ss"><img src="images/home_lawyer_about.png" alt="pen.png"></div>
+                <div class="matter">
+                        <p><h3>Edge Law Partners (ELP), Advocates and Consultants</h3> is a frontier of opportunities and hopes. We understand that every business accompanies risk but what is the fun in living on the ground?</p>
+                        <p>We are a full – service law firm headquartered in New Delhi, serving clients in both international and national domains. With young, energetic and dedicated team of lawyers and professionals, Edge Law Partners offers litigation and advisory services across all industry sectors.</p>
+                        <p>At Edge Law Partners, we believe in ‘Building Trust’. Our clients adore us as they see us not just as some law firm / legal advisor but a ‘Partner-in-Progress’. We do this by ensuring protection of their interest, offering valuable legal advice which not only has a cutting edge over the peers but entails highest standard of professionalism and commitment.</p>
+                        <p>Well-equipped with legal wisdom, we offer out-of-the-box legal solutions to our clients setting benchmark in all kinds services offered. We are a research and strategy driven firm where problem – solving translates into comprehensive yet cost-effective legal services.</p>
+                </div>
+            </div>
+            <div class="empty"></div>
+        </div>
+    </div>
+    <div id="second" class="areas">
+        <div class="slidershow">
+            <div class="slides fade">
+                <div class="centre"><img src="images/litigation.jpg" alt="typewriter"></div>
+                <div class="vl"  data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos="fade-down" data-aos-duration="300"></div>
+                <div class="drop-downs">
+                    <p data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="600">our expertise</p>
+                    <h1 data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="800">litigation and</h1>
+                    <h1 data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="800" >dispute resolution</h1>
+                    <a href="litigation.html"><p class="show-details" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos="fade-up" data-aos-duration="300" data-aos-delay="1000">read more <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+                </div>
+            </div>
+            <div class="slides fade">
+                <div class="centre"><img src="images/arbitration.jpg" alt="typewriter"></div>
+                <div class="vl"  data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300"></div>
+                <div class="drop-downs">
+                    <p data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="600">our expertise</p>
+                    <h1 data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="800">intellectual</h1>
+                    <h1 data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="800">property rights</h1>
+                    <a href="intellectual.html"><p class="show-details" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos="fade-up" data-aos-duration="300" data-aos-delay="1000">read more <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+                </div>
+            </div>
+            <div class="slides fade">
+                <div class="centre"><img src="images/typewriter.jpg" alt="typewriter"></div>
+                <div class="vl" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos="fade-down" data-aos-duration="300"></div>
+                <div class="drop-downs">
+                    <p data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="600">our expertise</p>
+                    <h1 data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="800">banking and</h1>
+                    <h1 data-aos="fade-down" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="800">finance</h1>
+                    <a href="banking.html"><p class="show-details" data-aos-anchor="#second" data-aos-anchor-placement="top-centre" data-aos="fade-up" data-aos-duration="300" data-aos-delay="1000">read more <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="options" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div> 
+    <div id="third" class="partners">
+        <div class="vl" data-aos="fade-down" data-aos-anchor="#third" data-aos-anchor-placement="top-centre" data-aos-duration="300"></div>
+        <h3 data-aos="fade-down" data-aos-anchor="#third" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="600">our team</h3>
+        <p data-aos="fade-down" data-aos-anchor="#third" data-aos-anchor-placement="top-centre" data-aos-duration="300" data-aos-delay="800">THE TEAM THAT IS DRIVEN BY CHALLENGES AND MOTIVATED BY SUCCESS.</p>
+        <div class="profiles">
+            <div class="pic">
+                <a href="tushar.html"><img src="images/tushar.jpg" alt="tushar sharma"></a>
+                <div class="footer">
+                    <h3>Tushar Sharma</h3>
+                    <p>Founding Partner</p>
+                    <a href="mailto:tushar.sharma@edgelawpartners.com">tushar.sharma@edgelawpartners.com</a>
+                </div>
+            </div>
+            <div class="pic">
+                <a href="abhishek.html"><img src="images/abhishek.jpg" alt="tushar sharma"></a>
+                <div class="footer">
+                    <h3>Abhishek Singh</h3>
+                    <p>Founding Partner</p>
+                    <a href="mailto:abhishek.singh@edgelawpartners.com">abhishek.singh@edgelawpartners.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fourth" class="contact">
+        <div class="fullvideo">
+            <video muted autoplay loop>
+                <source src="videos/vlc-record-2019-08-18-19h16m06s-pp.mp4-.mp4">
+            </video>
+        </div>
+        <div class="upper">
+            <div class="block">  
+                <form id="contact" action="" method="post">
+                    <h3>Quick Contact</h3>
+                    <h4>Contact us today, and get reply within 24 hours!</h4>
+                    <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="content">
+                <div class="image"  data-aos="fade-down" data-aos-duration="300">
+                    <img src="images/Edge-Logo-small.png" alt="logo">
+                </div>
+                <div class="address" data-aos="fade-down" data-aos-duration="300">
+                    <p>C-360, LGF,</p>
+                    <p>Defence Colony,</p>
+                    <p>New Delhi</p>
+                </div>
+                <div class="email" data-aos="fade-down" data-aos-duration="300">
+                    <a href="mailto:office@edgelawpartners.com"><p>office@edgelawpartners.com</p></a>
+                    <a href="mailto:contact@edgelawpartners.com"><p>contact@edgelawpartners.com</p></a>
+                </div>
+            </div>
+            <div class="line"><hr></div>
+            <div class="copyright">
+                <p>&copy;2019 Edge Law Partners. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <!-- disclaimer -->
+    <div class="warning" id="once">
+        <div class="disclaimer">
+            <div class="boxing">
+                <div class="image">
+                    <img src="images/Edge-Logo.png" alt="logo">
+                </div>
+                <div class="content">
+                    <p>The information contained in this website is for general information purposes only. The information is provided by Edge Law Partners and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</p>
+                    <p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arise out of, or in connection with, the use of this website.</p>
+                    <p>Through this website you are able to link to other websites which are not under the control of Edge Law Partners. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</p>
+                </div>
+            </div>
+            <div class="foot">
+                <button onclick="hide()">Agree</button>
+                <button onclick="location.href='https://www.google.com/'">Disagree</button>
+            </div>
+        </div>
+    </div>
+    <!-- disclaimer ends -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+    <script>
+        AOS.init({
+            easing: 'linear',
+            duration: 800,
+            delay: 300,
+            once: false,
+            disable: false
+        }); 
+    </script>
+</body>
+</html>
